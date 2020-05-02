@@ -1,24 +1,15 @@
 {
   "schemaVersion": 1,
-  "id": "starter",
+  "id": "cotton-scripting-groovy",
   "version": "${version}",
 
-  "name": "Fabric Starter",
-  "icon": "assets/starter/icon.png",
-  "description": "Template for starting out Fabric mods",
+  "name": "Cotton Scripting Groovy",
+  "description": "JSR-223 engine for Groovy wrapped in a Fabric mod.",
   "license": "MIT",
   "contact": {
-    "sources": "https://github.com/CottonMC/FabricStarter"
+    "sources": "https://github.com/CottonMC/CottonScripting-Groovy"
   },
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "io.github.cottonmc.starter.FabricStarter"
-    ]
-  },
-  "mixins": [
-    "mixins.starter.json"
-  ],
   "depends": {
     "fabricloader": ">=0.4.0"
   },
